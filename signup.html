@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sign-page">
+        <header>
+            <nav class="navbar navbar-expand-lg position-fixed fixed-top shadow-sm ">
+                <div class="container d-flex justify-content-between ">
+                    <a class="navbar-brand" href="#">Shopping</a>
+                    <a href="./signin.html" class="btn btn-orange px-5" type="submit">login</a>
+                </div>
+            </nav>
+        </header>
+        <div class="container vh-100 d-flex justify-content-center align-items-center ">
+            <div class="sign-box bg-danger bg-white p-4  rounded-4 shadow-lg w-75">
+                <div class="text-center">
+                    <h3 >Agent Signup</h3>
+                    <p>Hey,Enter your details to get signup to your account</p>
+                </div>
+                <form action="" class="px-3">
+                    <p id="message"></p>
+                    <input type="text" id="userName" class="form-control" placeholder="Enter name">
+                    <p id="message"></p>
+                    <input type="text" id="email" class="form-control" placeholder="Enter email">
+                    <p id="message"></p>
+                    <input type="text" id="password" class="form-control" placeholder="Enter password">
+                    <p id="message"></p>
+                    <input type="text" id="age" class="form-control" placeholder="Enter age">
+                    <p id="message"></p>
+                    <div class="text-center ">
+                        <button class="btn btn-orange px-5" id="btn-signUp">Signup</button>
+                    </div>
+                    <p>have an account?<a href="./signin.html" class="navbar-brand">signin</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script  src="./js/signup.js"></script>
+</body>
+</html>
